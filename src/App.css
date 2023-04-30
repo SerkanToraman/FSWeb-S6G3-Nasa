@@ -1,11 +1,93 @@
-.App {
-  text-align: center;
+.Page_Container{
+  background-image: url(./Pics/background.jpg);
+  height: 100vh;
+  width:100wh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Main_Container{
+  width: 70rem;
+  height:35rem;
+  background-color: black;
+  border-radius: 5rem;
+  box-shadow: 5px 5px 5px black, -5px -5px 5px black;
+  display: flex;
 }
+
+.Side_Bar{
+  flex-basis: 5rem;
+}
+
+.Main_Part{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.Header{
+  flex-basis: 7rem;
+}
+
+.Content_Img{
+  display: flex;
+}
+
+.Content_part{
+  display: flex;
+  display: flex;
+  flex-direction: column;
+}
+.Img_Part{
+  width: 30rem;
+  height : 30rem;
+  overflow: hidden;
+  object-fit: contain;
+}
+.Right_Side_Bar{
+  flex-basis: 7rem;
+}
+
+.Content_Header{
+  flex-basis: 7rem;
+}
+
+.Content{
+  display: flex;
+  flex-basis: 15rem;
+  max-width: 30rem;
+}
+
+.date_arrow{
+  flex-basis: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.date{
+  flex-basis: 6rem;
+}
+.arrow{
+  flex-basis: 6rem; 
+}
+
+.footer{
+
+}
+
+img{
+position:relative;
+right:4rem;
+bottom:3rem;
+width: 48rem;
+height:auto;
+}
+
+.grow1{
+  flex-grow: 1;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
